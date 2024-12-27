@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Соберите Docker-образ
+                    echo 'Сборка оброза...'
                     sh 'docker build -t your_image_name .'
                 }
             }
@@ -12,7 +12,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    // Обновите контейнер
+                    echo 'Обновление контейнера...'
                     sh 'docker-compose up -d'
                 }
             }
