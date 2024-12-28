@@ -1,5 +1,3 @@
-#include<stdlib.h>
-#include<stdio.h>
 #include<time.h>
 
 int getrand(int min, int max)
