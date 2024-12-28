@@ -1,3 +1,4 @@
+
 #include<time.h>
 
 int getrand(int min, int max)
